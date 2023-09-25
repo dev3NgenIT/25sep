@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HR DASHBOARD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- project kpi Area Start -->
+    <section style="background-color: #edfbff;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <h4 class="fw-bold titles-hr">Welcome to HRM [Admin]</h4>
+              </div>
+              <div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle ot-dropdown-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> Company Dashboard </button>
+                  <ul class="dropdown-menu hr-dropdown" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                      <a class="dropdown-item" href="#">My Dashboard</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row End -->
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-users" style="color: #6c63ffc9;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Employees</h4>
+                  <h1> 03</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-user-group" style="color: #ff69b4;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Clients</h4>
+                  <h1> 01</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-wallet" style="color: #f4a460c4;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Expenses</h4>
+                  <h1> $ 5,000</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-hand-holding-dollar" style="color: #7ab668;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Deposits</h4>
+                  <h1>$ 0</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row End -->
+        <div class="row mt-4">
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-diagram-project" style="color: #00a0ff;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Projects</h4>
+                  <h1> 03</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-list-check" style="color: #ffc107;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Tasks</h4>
+                  <h1> 03</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-solid fa-map-location-dot" style="color: #20b2aa;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Visit</h4>
+                  <h1> 03</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card summery-card hr-card h-100">
+              <div class="card-heading d-flex align-items-center">
+                <div class="card-icon circle-violet dashboard-card-icon">
+                  <i class="fa-regular fa-calendar-check" style="color:red;"></i>
+                </div>
+                <div class="card-content">
+                  <h4> Total Appointments</h4>
+                  <h1> 03</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row End -->
+      </div>
+      <div class="container pb-5">
+        <div class="row ">
+          <div class="col-lg-12">
+            <div>
+              <div>
+                <h4 class="fw-bold titles-hr">Summery</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <!-- Pie chart timeline -->
+            <div class="card summury-card hr-card h-100">
+              <div class="card-header bg-transparent border-0 text-center fw-bold">Today Attendance Summary</div>
+              <div class="chart-inner">
+                <canvas id="BA-chart-job-error" width="600" height="300"></canvas>
+              </div>
+            </div>
+            <!-- /pie chart timeline -->
+          </div>
+          <div class="col-lg-4">
+            <div class="card summury-card hr-card h-100">
+              <div class="card-header bg-transparent border-0 text-center fw-bold">Appointment Schedule</div>
+              <div class="table-content table-basic mt-3">
+                <div class="table-responsive">
+                  <table class="table table-bordered">
+                    <thead class="thead">
+                      <tr>
+                        <th class="text-left">Title</th>
+                        <th>With</th>
+                        <th>Location</th>
+                        <th>Date Time</th>
+                      </tr>
+                    </thead>
+                    <tbody class="tbody" id="appointment_schedule">
+                      <tr class="bg-transparent">
+                        <td valign="top" colspan="4" class="dataTables_empty">
+                          <div class="no-data-found-wrapper text-center ">
+                            <img src="https://hrm.codesstation.com/assets/images/empty.png" alt="" class="mb-primary empty_table" width="200">
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4">
+            <div class="card summury-card hr-card h-100">
+              <div class="card-header bg-transparent border-0 text-center fw-bold">Meeting schedule</div>
+              <div class="table-content table-basic mt-3">
+                <div class="table-responsive">
+                  <table class="table table-bordered">
+                    <thead class="thead">
+                      <tr>
+                        <th class="text-left">Title</th>
+                        <th>With</th>
+                        <th>Location</th>
+                        <th>Date Time</th>
+                      </tr>
+                    </thead>
+                    <tbody class="tbody" id="meeting_schedule">
+                      <tr class="bg-transparent">
+                        <td valign="top" colspan="4" class="dataTables_empty">
+                          <div class="no-data-found-wrapper text-center ">
+                            <img src="https://hrm.codesstation.com/assets/images/empty.png" alt="" class="mb-primary empty_table" width="200">
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project kpi Area End -->
+    <script src="https://kit.fontawesome.com/1edea25df0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-doughnutlabel/2.0.3/chartjs-plugin-doughnutlabel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+    <script>
+      var BAChartDataValue = [12, 18, ];
+      var BAChartDataLabel = ['Leave', 'Present', ];
+      var BAChartJobErrColors = ['rgba(26, 176, 169, 1)', 'rgba(119, 209, 190, 1)', ];
+      var BAChartCountTotal = 0;
+      if (BAChartDataValue.length > 0) {
+        BAChartCountTotal = BAChartDataValue.reduce(function(acc, currentVal, currentIdx, arr) {
+          return acc + currentVal;
+        }, 0);
+      }
+      window.addEventListener('load', function() {
+        var BAChartCtx = document.getElementById('BA-chart-job-error').getContext('2d');
+        var BAChartJobErr = new Chart(BAChartCtx, {
+          type: 'doughnut',
+          data: {
+            labels: BAChartDataLabel,
+            datasets: [{
+              data: BAChartDataValue,
+              backgroundColor: BAChartJobErrColors,
+              borderColor: '#fff',
+              borderWidth: 1,
+            }]
+          },
+          options: {
+            responsive: false,
+            maintainAspectRatio: false,
+            title: {
+              display: true,
+              position: 'top',
+              fontSize: 12,
+              fontColor: '#000',
+              fontStyle: 'bold',
+              text: 'Attendance Summary',
+            },
+            plugins: {
+              labels: [{
+                render: 'label',
+                fontColor: '#000',
+                position: 'outside'
+              }, {
+                render: 'time',
+                fontColor: '#fff',
+              }],
+              doughnutlabel: {
+                labels: [{
+                  text: 'Total: ' + BAChartCountTotal,
+                }]
+              }
+            },
+            legend: {
+              display: false
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
