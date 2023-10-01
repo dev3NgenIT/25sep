@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Salary Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+      /* Evaluation  Design Start*/
+      .main-color-th {
+        background-color: #307a9d !important;
+        border-left: 1px solid #307a9d !important;
+        border-bottom: 1px solid white !important;
+      }
+
+      .page_titles {
+        background-color: #307a9d;
+        width: 20%;
+        border-radius: 20px;
+        color: white;
+        margin: auto;
+        font-size: 20px;
+        padding-bottom: 3px;
+      }
+
+      .border-tb-table {
+        border-top: 3px solid #307a9d;
+        border-bottom: 3px solid #307a9d;
+      }
+
+      .border-lr-table {
+        border-left: 1px solid #307a9d;
+        border-right: 1px solid #307a9d;
+      }
+
+      .evaluation-table {
+        background-color: #307a9d !important;
+      }
+
+      .special_table-ch {
+        padding-top: 35px;
+        padding-bottom: 35px;
+      }
+
+      .rotate-text {
+        transform: rotate(-90deg);
+        font-size: 14px;
+        padding: 0;
+      }
+
+      .table-head-color {
+        background: #24729759 !important;
+      }
+
+      .rotatable-text {
+        position: relative;
+        top: 55px;
+      }
+
+      .rotatables-text {
+        position: relative;
+        top: 160px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Print Area Start -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h4 class="my-3 text-center page_titles">Evaluation Sheet</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row gx-1">
+              <div class="col-lg-8 col-sm-12">
+                <div class="row gx-1">
+                  <div class="col-lg-6 col-sm-12">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="bg-light fw-bold"> Dept. / Comp. : </th>
+                          <th scope="col">NGEN IT</th>
+                          <th scope="col" class="bg-light fw-bold"> Started Salary </th>
+                          <th scope="col">3,000.00</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Emp. Name: </th>
+                          <td>Aksh</td>
+                          <td class="bg-light fw-bold">Last Eval Date:</td>
+                          <td>31-Dec-22</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Designation: </th>
+                          <td>QA Assistant</td>
+                          <td class="bg-light fw-bold">Last Eval Score :</td>
+                          <td>60%</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Joining Date : </th>
+                          <td>1-Sep-22</td>
+                          <td class="bg-light fw-bold">Last Salary</td>
+                          <td>3,000.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="bg-light fw-bold"> Evaluation Period : </th>
+                          <th scope="col">3 Month</th>
+                          <th scope="col" class="bg-light fw-bold"> Started Salary </th>
+                          <th scope="col">3,000.00</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> New Eval Score : </th>
+                          <td>32%</td>
+                          <td class="bg-light fw-bold">Last Eval Date:</td>
+                          <td>31-Dec-22</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Increment </th>
+                          <td>32%</td>
+                          <td class="bg-light fw-bold">Last Eval Score :</td>
+                          <td>60%</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Promotion </th>
+                          <td>N/A</td>
+                          <td class="bg-light fw-bold">Last Salary</td>
+                          <td>3,000.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="main-color-th fw-bold text-white"> Effective From </th>
+                      <th scope="col" class="text-white" style="background-color: #ae0a46"> EMPLOYEE OFFICIALS </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" class="main-color-th fw-bold text-white"> 1 Apr 23 </th>
+                      <td>
+                        <div class="d-flex justify-content-between align-items-center px-4">
+                          <p class="p-0 m-0"> Any documents need to be submitted ? </p>
+                          <p class="p-0 m-0">N</p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="main-color-th fw-bold text-white"> PROBATION </th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="main-color-th fw-bold" style="color: yellow"> 5,023.86 </th>
+                      <td>
+                        <div class="d-flex justify-content-between align-items-center px-4">
+                          <p class="p-0 m-0"> Any Agreements need to be signed ? </p>
+                          <p class="p-0 m-0">Y</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h4 class="my-3 text-center page_titles">Evaluation Sheet</h4>
+          </div>
+        </div>
+        <div class="row gx-3">
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="workingdaysExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="workingdaysHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#workingdays" aria-expanded="true" aria-controls="workingdays"> Working Days </button>
+                </h2>
+                <div id="workingdays" class="accordion-collapse collapse show" aria-labelledby="workingdaysHeading" data-bs-parent="#workingdaysExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-white"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td>Aksh</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td>QA Assistant</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td>Benefit</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="salaryRumationExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="salaryRumationHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#salaryRumation" aria-expanded="true" aria-controls="salaryRumation"> Salary Rumination </button>
+                </h2>
+                <div id="salaryRumation" class="accordion-collapse collapse show" aria-labelledby="salaryRumationHeading" data-bs-parent="#salaryRumationExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="basicExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="basicHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#basicFacility" aria-expanded="true" aria-controls="basicFacility"> Basic Facility </button>
+                </h2>
+                <div id="basicFacility" class="accordion-collapse collapse show" aria-labelledby="basicHeading" data-bs-parent="#basicExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="bonusExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="bonusHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#bonusAccordion" aria-expanded="true" aria-controls="bonusAccordion"> Bonus </button>
+                </h2>
+                <div id="bonusAccordion" class="accordion-collapse collapse show" aria-labelledby="bonusHeading" data-bs-parent="#bonusExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Row Start -->
+        <div class="row gx-3 mt-3">
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="kpiExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="kpiHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#kpiFacility" aria-expanded="true" aria-controls="kpiFacility"> KPI </button>
+                </h2>
+                <div id="kpiFacility" class="accordion-collapse collapse show" aria-labelledby="kpiHeading" data-bs-parent="#kpiExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="additionalExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="additionalHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#additional" aria-expanded="true" aria-controls="additional"> Additional </button>
+                </h2>
+                <div id="additional" class="accordion-collapse collapse show" aria-labelledby="additionalHeading" data-bs-parent="#additionalExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="deductionExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="deductionHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#deduction" aria-expanded="true" aria-controls="deduction"> Deduction </button>
+                </h2>
+                <div id="deduction" class="accordion-collapse collapse show" aria-labelledby="deductionHeading" data-bs-parent="#deductionExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="accordion rounded-0 mb-2" id="netPayableExample">
+              <div class="accordion-item shadow-lg rounded-0">
+                <h2 class="accordion-header" id="additionalHeading">
+                  <button class="accordion-button rounded-0 evaluation-table text-white shadow-lg text-center p-2 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#netpayable" aria-expanded="true" aria-controls="netpayable"> Net Payable </button>
+                </h2>
+                <div id="netpayable" class="accordion-collapse collapse show" aria-labelledby="additionalHeading" data-bs-parent="#netPayableExample">
+                  <div class="accordion-body p-3">
+                    <table class="table table-responsive table-bordered border-tb-table mb-0" style="font-size: 10px">
+                      <thead>
+                        <tr class="">
+                          <th scope="col" class="table-head-color text-white fw-bold"> Name </th>
+                          <th scope="col" class="table-head-color text-center text-white fw-bold"> Percentage </th>
+                          <th scope="col" class="table-head-color text-white fw-bold"> Value </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Basic</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4301</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold"> Food Meal </th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>1232</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="bg-light fw-bold">Extra</th>
+                          <td class="table-head-color text-center">40%</td>
+                          <td>4680</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Print Area End -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
